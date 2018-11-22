@@ -3,9 +3,7 @@
 
 var ReactNative = require('react-native');
 var React = require('react');
-var {
-    PropTypes
-} = React;
+var PropTypes = require('prop-types');
 var {
     requireNativeComponent,
     View,
@@ -100,7 +98,7 @@ SignatureCapture.propTypes = {
     viewMode: PropTypes.string,
     showNativeButtons: PropTypes.bool,
     showTitleLabel: PropTypes.bool,
-    maxSize:PropTypes.number
+    maxSize: PropTypes.number
 };
 
 SignatureCapture.defaultProps = {
